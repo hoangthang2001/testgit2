@@ -1,0 +1,22 @@
+Spring Boot là framework được phát triển bởi JAV (ngôn ngữ lập trình Java) 
+Được tạo ra với mục đích giúp giảm thiểu độ phức tạp khi phát triển ứng dụng để cho việc phát triển ứng dụng nhanh chóng và hiệu quả hơn.
+
+Spring Data JPA là một công nghệ trong Spring Boot cung cấp cho chúng ta các tính năng để dễ dàng tương tác với cơ sở dữ liệu. 
+Nó là một phần mở rộng của JPA (Java Persistence API) và sử dụng Hibernate để thực hiện các thao tác trên cơ sở dữ liệu.
+
+RESTful API là một kiểu thiết kế API (Application Programming Interface) dựa trên kiến trúc REST 
+(Representational State Transfer), cung cấp một cách thức giao tiếp dựa trên các tài nguyên (resource) của hệ thống, 
+đảm bảo tính nhất quán và hiệu quả trong việc trao đổi dữ liệu giữa các ứng dụng và hệ thống khác nhau, bao gồm:
+
+Sử dụng các phương thức HTTP như GET, POST, PUT, DELETE để truy xuất và thay đổi các tài nguyên trên máy chủ.
+
+Sử dụng định dạng dữ liệu như JSON hoặc XML để truyền tải thông tin giữa các ứng dụng.
+
+Các tài nguyên được định danh bằng các URI (Uniform Resource Identifiers) duy nhất.
+
+API là các phương thức, giao thức kết nối với các thư viện và ứng dụng khác. 
+Nó là viết tắt của Application Programming Interface – giao diện lập trình ứng dụng. API cung cấp khả năng cung cấp 
+khả năng truy xuất đến một tập các hàm hay dùng. Và từ đó có thể trao đổi dữ liệu giữa các ứng dụng..
+
+Spring MVC là một framework cung cấp kiến truc MVC (Model-View-Controller) và 
+các component được sử dụng để phát triển các ứng dụng web một cách linh hoạt 
