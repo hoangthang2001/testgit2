@@ -1,0 +1,3 @@
+		full outer join, Aggregate function
+
+Insert into tbl1 Select … from tbl2 where…
