@@ -1,0 +1,19 @@
+
+xem các branch: git branch 
+tạo mới : git branch "tên"
+di chuyển sang branch khác: git checkout "ten"
+xóa branch: $ git branch -d branch_name
+
+git add : add file vào trạng thái chờ
+git commit: đưa file vào vùng sẵn sàng push
+git log : xem lịch sử commit
+
+git remote - v
+git remote add "ten gi day" + duong link
+git remote rename "ten" "ten khac"
+
+
+
+1- Tìm hiểu lý thuyết trước Agile, sau đó Agile
+2- Scrum là gì, những framework đang tồn tại song song với Scrum
+3- Demo mô hình cụ thể trong quá trình làm dự án
