@@ -1,0 +1,9 @@
+
+INSERT
+Trong ví dụ này, mỗi khi một đơn hàng mới được chèn vào bảng "Orders", trigger "insert_order_audit" 
+sẽ được kích hoạt sau câu lệnh INSERT. Trigger này chèn một bản ghi vào bảng "AuditLogs" 
+để ghi lại thông tin về hành động (action) và thời gian (timestamp).
+
+
+ID cuộc họp: 494 572 5287  
+Mật mã: 2022"
