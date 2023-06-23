@@ -1,0 +1,75 @@
+
+						DESTRUCTURING
+Trong TypeScript, destructuring là một cú pháp cho phép bạn tách lấy các giá trị từ một cấu trúc dữ liệu như một mảng 
+hoặc đối tượng và gán chúng vào các biến riêng lẻ. Điều này giúp bạn truy cập và sử dụng các phần tử trong cấu 
+trúc dữ liệu một cách dễ dàng hơn.
+
+Khởi tạo một mảng tets1 với các phần tử là chuỗi "A", "B", "C".
+Thêm các phần tử "D", "E", "G" vào mảng bằng phương thức push.
+Sử dụng destructuring để tách lấy giá trị đầu tiên của mảng và gán nó vào biến x, 
+và giá trị thứ ba của mảng và gán nó vào biến z. Phần tử thứ hai trong mảng không được gán vào bất kỳ biến nào.
+kiểu số không thể gán cho loại chuỗi
+
+						TEMPLATE 
+Template string (còn được gọi là Template literals) là một cú pháp cho phép bạn tạo ra các chuỗi 
+có định dạng phức tạp hơn bằng cách kết hợp các giá trị biến và các biểu thức trong chuỗi một cách dễ dàng và linh hoạt.
+"template loop" không phải là một thuật ngữ cụ thể. Tuy nhiên, sử dụng vòng lặp trong kết hợp 
+với template string để tạo chuỗi dựa trên dữ liệu từ một mảng hoặc cấu trúc dữ liệu khác.
+
+						OPERATOR
+Toán tử trải rộng (spread operator) là một toán tử trong JavaScript và TypeScript, được sử dụng để "trải rộng" 
+một cấu trúc dữ liệu, như một mảng hay đối tượng, thành các phần tử riêng lẻ hoặc các thuộc tính riêng lẻ. 
+Toán tử này sử dụng cú pháp ba chấm (...) trước tên của cấu trúc dữ liệu.
+
+Trong ví dụ này, toán tử trải rộng ...được sử dụng để tạo một mảng mới newNumbersbằng cách mở rộng
+các phần tử của numbers mảng và thêm 4vào cuối. Đầu ra sẽ là [1, 2, 3, 4].
+
+var student = { university: "international university" };
+Đây là khai báo một đối tượng student với thuộc tính university có giá trị là "international university".
+Đây là khai báo một đối tượng student1 mới. Toán tử spread (...) được sử dụng để sao chép các thuộc tính từ đối tượng student
+và thêm thuộc tính fullname với giá trị "Nguyen Van A" vào đối tượng mới. Kết quả là đối tượng student1 sẽ có hai
+thuộc tính: university và fullname.
+
+						FUNCTION
+Function constructor trong TypeScript là một loại hàm đặc biệt được sử dụng để tạo ra các đối tượng mới từ một lớp
+(class) đã được định nghĩa trước.
+nếu có body function chỉ có 1 cậu lệnh thì có thể bỏ {}
+
+
+						PARAMETTER
+parameter (tham số) là các biến định danh được khai báo trong phần đầu của một hàm hoặc phương thức, 
+được sử dụng để nhận giá trị đầu vào khi gọi hàm.
+
+hàm greet xác định tham số name và kiểu string và giá trị
+gọi greet mà không cung cấp đối số, giá trị mặc định là guest
+gọi greet và cung cấp đối số, giá trị là john
+
+Trong TypeScript, bạn có thể xác định các tham số tùy chọn trong một hàm bằng cách thêm dấu chấm hỏi ( ?)hàm greet 
+được xác định vói tham số tùy chọn (name). dấu ? cho biết tham số là tùy chọn và không băt buộc khi gọi hàm
+sau tên tham số trong chữ ký hàm
+
+câu lệnh if kiểm tra xem name có giá trị hay không
+
+{ name: string, age: number }, đại diện cho một đối tượng ẩn danh với các thuộc tính namecủa loại stringvà ageloại number.
+//Khi gọi displayUserInfo({ name: "John", age: 25 }), một đối tượng ẩn danh được tạo với các thuộc tính namevà ageđược đặt thành
+//"John"và 25tương ứng. Đối tượng này được truyền dưới dạng đối số cho hàm displayUserInfo
+
+
+					ASYNCHRONOUS
+Asynchronous Programming trong TypeScript (và JavaScript) cho phép bạn thực hiện đồng thời 
+các tác vụ mà không chặn việc thực thi mã khác. Nó cho phép bạn thực thi mã không đồng bộ, 
+nghĩa là một số hoạt động nhất định có thể chạy ở chế độ nền trong khi chương trình tiếp tục thực hiện các tác vụ khác.
+
+//hàm delayedGreeting nhận vào hai tham số: name là tên người được chào hỏi và delay là thời gian trước khi in ra
+// setTimeout để lập lịch cho một hàm callback. Hàm callback này sẽ được thực thi sau khi delay mili giây đã trôi qua
+
+//giải quyết là chức năng gọi lại xử lý một hành động thành công.
+//reject là một chức năng gọi lại xử lý các hành động thất bại
+
+sử dụng các tính năng nâng cao của JavaScript như khai báo let/const, hàm mũi tên (arrow functions), Promise, 
+async/await, và nhiều tính năng khác có sẵn trong ES6 và phiên bản mới hơn.
+
+
+
+
+	
